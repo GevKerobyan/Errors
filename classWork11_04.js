@@ -1,12 +1,4 @@
-// A teacher has created a gradeLabs function that verifies if student programming labs work. This function
-// loops over an array of JavaScript objects that should contain a student property and runLab property.
-// The runLab property is expected to be a function containing the student's code. The runLab function is
-// called and the result is compared to the expected result. If the result and expected results don't match,
-// then the lab is considered a failure.
-// gradeLabs
-// The gradeLabs function works for the majority of cases. However, what happens if a student named their
-// function incorrectly? Run gradeLabs and pass it studentLabs2 as defined below.
-
+/* -------------------- GRADELABS -------------------- */
 
 function gradeLabs(labs) {
     try {
@@ -36,4 +28,3 @@ let studentLabs = [
 ]; 
 
 console.log(gradeLabs(studentLabs));
-
