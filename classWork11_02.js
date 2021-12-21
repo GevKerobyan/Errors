@@ -19,7 +19,7 @@ function isPositive(int) {
             throw new Error (`The number is 0`);
 
         } else if (int < 0) {
-            throw new Error(`The number is negative`);
+            throw Error(`The number is negative`);
         }
 
     } catch (Error) {
@@ -31,4 +31,4 @@ function isPositive(int) {
 
 console.log(isPositive (-6516));
 console.log(isPositive (6516));
-console.log(0);
+console.log(isPositive (0));
